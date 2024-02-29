@@ -1,0 +1,147 @@
+.home-cols__big{
+	float: left;
+	width: 100%;
+	padding-bottom: 20px
+}
+
+.tableLessons ul{
+	display: table;
+	width: 100%;
+	border-left: solid 1px #ebebeb;
+	border-top: solid 1px #ebebeb;
+	text-align: center
+}
+.tableLessons ul li{
+	list-style: none;
+	display: table-row
+}
+.tableLessons ul li .td{
+	display: table-cell;
+	color: #8e8d92;
+	background: #fff;
+	border-right: solid 1px #ebebeb;
+	border-bottom: solid 1px #ebebeb;
+	vertical-align: middle
+}
+.tableLessons ul li .td-title{
+	padding: 10px 7px 10px 17px;
+	text-align: left;
+	font-size: 18px;
+	color: #31a750;
+	white-space: nowrap
+}
+.tableLessons ul li ul{
+	border:0
+}
+.tableLessons ul li ul li .td{
+	background: none;
+	display: table-cell;
+	width: 9.0909%;
+	border:0
+}
+.tableLessons ul li ul li .td + .td{
+	border-left: solid 1px #ebebeb
+}
+.tableLessons ul li ul li a b{
+	font-weight: 400;
+}
+.tableLessons ul li .th{
+	border-right: solid 1px #ebebeb;
+	padding: 0;
+	border-bottom: solid 1px #ebebeb;
+	line-height: 40px;
+	display: table-cell;
+	color: #0000FF;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: solid 1px #ebebeb
+}
+.tableLessons ul li .th.td-title{
+	width: 24%;
+	padding: 0 0 6px 17px;
+	vertical-align: middle
+}
+.tableLessons ul li .th ul{
+	border-top: solid 1px #ebebeb
+}
+.tableLessons ul li .th ul a{
+	height: 38px;
+	line-height: 37px
+}
+.tableLessons ul li .th ul a:before{
+	display: none
+}
+.tableLessons a{
+	font-size: 18px;
+	color: #0000FF;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 49px;
+	line-height: 49px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+.tableLessons a:hover{
+	color: #009688;
+}
+.tableLessons a:hover b{
+	opacity: 1
+}
+.tableLessons a:hover b{
+	font-weight: 900;
+}
+.tableLessons ul li:hover .td{
+	background: #fbfbfb
+
+}
+.tableLessons ul li:hover .td.td-title{
+	color: #009688;
+}
+.tableLessons .table-head:hover .td{
+	background: #fff
+}
+.tableLessons ul li .td.disabled a{
+	background: none !important;
+	cursor: default
+}
+.tableLessons ul li .td.disabled a:before{
+	display: none
+}
+.tableLessons ul li .td.disabled a b{
+	opacity: 0
+}
+
+@media screen and (max-width: 1259px){
+	.tableLessons ul li .th.td-title{width: 25%}
+	}
+@media screen and (max-width: 1199px){
+	.home-cols__big{float: none;padding-right: 0;margin: 0 auto;}
+	.tableLessons ul li .th.td-title{width: 24%}
+	}
+}
+@media screen and (max-width: 939px){
+	.tableLessons ul li .th.td-title{width: 25%}
+}
+@media screen and (max-width: 639px){
+	.home-cols__big{width: auto;padding-bottom: 30px}
+	.tableLessons ul li.table-head{display: none}
+	.tableLessons ul li .td-title{font-size: 17px;color: #009688;line-height: 1; padding-left: 5px;}
+	.tableLessons > ul > li{display: block;border-bottom: solid 1px #ebebeb}
+	.tableLessons > ul > li > .td{border:0;display: block;background: none;border-bottom:0}
+	.tableLessons ul li ul li .td + .td{border:0}
+	.tableLessons a{font-size: 17px;height: 40px;line-height: 40px;margin-bottom: -1px;color: #4B0082; text-decoration: none;}
+	.tableLessons a:before{content: none;width: 0;height: 0}
+	.tableLessons a b{opacity: 1;color: #0e14da}
+	.tableLessons a:hover{background: #0e14da}
+	.tableLessons a:hover b{color: #fff}
+	.tableLessons a:hover:before{content: none}
+	.tableLessons ul li .td.disabled a b{font-weight: 100;color: #c9c9c9;opacity: 1}
+	.home-cols{padding-top: 0;margin-top: -5px}
+	.tableLessons ul li ul li a b{
+	font-weight: 400;
+}
+}

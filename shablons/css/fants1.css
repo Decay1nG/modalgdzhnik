@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "BeerRegular";
+    src: url("../fonts/BeerRegular/BeerRegular.eot");
+    src: url("../fonts/BeerRegular/BeerRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BeerRegular/BeerRegular.woff") format("woff"),
+    url("../fonts/BeerRegular/BeerRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "YesevaOneRegular";
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot");
+    src: url("../fonts/YesevaOneRegular/YesevaOneRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YesevaOneRegular/YesevaOneRegular.woff") format("woff"),
+    url("../fonts/YesevaOneRegular/YesevaOneRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "TroikaRegular";
+    src: url("../fonts/TroikaRegular/TroikaRegular.eot");
+    src: url("../fonts/TroikaRegular/TroikaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/TroikaRegular/TroikaRegular.woff") format("woff"),
+    url("../fonts/TroikaRegular/TroikaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+font-family: 'HelveticaNeueCyr-Light';
+font-style: normal;
+font-weight: normal;
+src: local('HelveticaNeueCyr-Light'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'HelveticaNeueCyr-Roman';
+font-style: normal;
+font-weight: normal;
+src: local('HelveticaNeueCyr-Roman'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'HelveticaNeueCyr-UltraLight';
+font-style: normal;
+font-weight: normal;
+src: local('HelveticaNeueCyr-UltraLight'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-UltraLight.woff') format('woff');
+}
+
+

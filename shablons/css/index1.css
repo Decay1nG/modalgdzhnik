@@ -1,0 +1,469 @@
+@media (min-width: 1116px){
+    .peidg{
+    	position: relative;
+        margin-top: -25px;
+    }
+ .menu_icon{
+    position: absolute;
+    right: 14px;
+    left: 12px;
+    top:-50px;
+}
+.search {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.search input[type=submit] {
+    height: 36px;
+}
+}
+@media (max-width: 1116px){
+    header .imgg .icon{
+    padding-top: 18px;
+}
+}
+@media (max-width: 1116px){
+    header .imgg .icon{
+    padding-top: 15px;
+    }
+	header .imag .icon1{
+    padding-top: 15px;
+    }
+    .content{
+    border: none;
+    }
+	#GorizMenu{
+    display: none;
+    }
+    .menu{
+    display: block;
+    position: absolute;
+    top: -20px;
+    top: -36px;
+    left: auto;
+    right: 26px;
+    }
+    .menu_icon{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background-color: #819A32;
+    }
+    header .header{
+    height: 120px;
+    }
+    header .header .imgg{
+    padding-left:16px;
+    }
+	 header .header .imag{
+    padding-top:13px;
+    }
+	
+    .search input[type=submit], .search>div>input, .search>div{
+        height: 34px;
+    }
+    .search, .search input[type=submit]{
+        border: none;
+    }
+    .search>div>input, .search input[type=submit]{
+        border-radius: 0px;
+    }
+}
+@media (max-width: 1029px){
+    #max_1029{
+        display: none;
+    }
+}
+@media (max-width: 992px){
+    .menu_icon .menu {
+        float: left;
+    }
+    .books, .books_none, .vk_comment, .tfilet_gdz, .recklam_verh_niz, .numbers, .content h1, .infa{
+    padding-right: 15px;
+    padding-left: 10px;
+    }
+    .file img{
+    padding-left: 10px;
+    }
+    .soc_set{
+    padding: 0px 10px 10px 10px;
+    }
+    .easy_navigat{
+    padding: 10px;
+    }
+    .workbook_name{
+      padding-left: 10px;  
+    }
+    h2{
+    padding: 10px;
+    }
+}
+@media (min-width: 1030px){
+    .peidg .content_menu .content .reklama_str{
+    right: 90px;
+    }
+    #min_1030{
+        display: none;
+    }
+}
+@media (min-width: 992px){
+    .content_menu .content .reklama_str{
+    width: 300px;
+    right: 30px;
+    }
+}
+@media (min-width: 800px){
+    .peidg .content_menu .content .file img{
+    max-width: 580px;
+	width: 100%;
+    }
+}
+    
+@media (min-width: 720px){
+    .content_menu .content .file img{
+    max-width: 500px;
+	width: 100%;
+    }
+    .content .reklama_str{
+    right: 30px;
+    top: 60px;
+    }
+}
+@media (min-width: 650px){
+    .reklama_str{
+    position: relative;
+    float: right;
+    width: 280px;
+    height: 533px;
+    right: 0px;
+    top: 0px;
+    }
+    .content .file img{
+    max-width: 440px;
+	width: 100%;
+    }
+
+    .file {
+        text-align: center;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 680px) {
+
+     .reklama_str {
+        
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+      }
+
+}
+
+@media (max-width: 750px){
+    .text_gdz{
+        display: none;
+    }
+    .search>div {
+    margin: 0 100px 0 0;
+    }
+    .search input[type=submit] {
+    width: 100px;
+    }
+    .numbers a{
+    min-width: 59px;
+    }
+    .numbers span{
+        font-size: 13px
+    }
+}
+    @media (max-width: 1350px){
+        header .header{
+            position: static;
+        }
+    }
+  
+    @media (max-width: 650px){
+        /*
+        header .header{
+            width: 290px;
+            height: 112px;
+        }
+        */
+        .recklam_verh_niz, .reklama_str{
+        	padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .file img{
+            padding-left: 0px;
+        }
+        .menu_icon{
+        top: 64px;
+        }
+        /*
+        .menu_icon .menu {
+            left: 480px;
+            top: -16px;
+        }
+        */
+        .search{
+            margin: 8px 10px 8px 78px;
+        }
+        .search input[type=submit], .search>div>input, .search>div{
+            height: 32px;
+        }
+        /*
+        header .header .imgg{
+            width: 312px;
+            padding-left: 0px;
+        }*/
+        header .imgg span{
+            font-size: 46px;
+            margin-bottom: -8px
+        }
+        /*
+        header .imgg .icon{
+            width: 312px;
+        }
+        */
+        .books li{
+            width: 100%;
+        }
+        .pravo, .mail{
+            display: none;
+        }
+    }
+    
+    @media (max-width: 460px){
+        .content h1{
+            font-size: 22px;
+        }
+        .long_numbers{
+            font-size: 14px;
+        }
+        .list li{
+            margin-left: 30px;
+        }
+       
+    }
+ 
+
+@media (max-width: 480px){
+    
+    header .header{
+    /* height: 96px;
+    width: 230px; */
+    height: 86px;
+    width: auto;
+    }
+    
+    header .header .imgg{
+    width: 230px;
+    }
+    header .imgg .icon{
+    width: 230px;
+    }
+    .search{
+    margin: 6px 10px 6px 60px;
+    }
+    .search input[type=submit] {
+    width: 60px;
+    }
+    .search input[type=submit], .search>div>input, .search>div{
+    height: 30px;
+    }
+    .search>div {
+    margin: 0 60px 0 0;
+    }
+    .menu_icon{
+    top: 54px;
+    }
+    .menu_icon .menu{
+    left: 350px;
+    top: -13px;
+    }
+}
+(min-width: 361px) and (max-width: 377px)
+ @media (min-width: 361px) and (max-width: 420px){
+          header .header{
+    height: 85px;
+    width: 200px;
+    }
+    header .header .imgg{
+    width: 190px;
+    }
+    header .imgg .icon{
+    width: 190px;
+    }
+        header .imgg span {
+            font-size: 35px;
+            margin-bottom: -5px;
+        }
+        header .imgg span sup {
+            font-size: 19px;
+            padding-right: 4px;
+            padding-left: 4px;
+        }
+        .menu_icon{
+    top: 54px;
+    }
+     .menu_icon .menu{
+    left: 287px;
+    top: -20px;
+    }
+    }
+
+    @media (max-width: 360px){
+          header .header{
+    height: 85px;
+    width: 200px;
+    }
+    header .header .imgg{
+    width: 190px;
+    }
+    header .imgg .icon{
+    width: 190px;
+    }
+        header .imgg span {
+            font-size: 35px;
+            margin-bottom: -5px;
+        }
+        header .imgg span sup {
+            font-size: 19px;
+            padding-right: 4px;
+            padding-left: 4px;
+        }
+        .menu_icon{
+    top: 54px;
+    }
+     .menu_icon .menu{
+    left: 270px;
+    top: -20px;
+    }
+    }
+
+    @media (max-width: 320px){
+        .content h1{
+            font-size: 16px;
+        }
+          header .header{
+    height: 80px;
+    width: 250px;
+    }
+    header .header .imgg{
+    width: 190px;
+    }
+    header .imgg .icon{
+    width: 190px;
+    }
+        header .imgg span {
+            font-size: 35px;
+            margin-bottom: -5px;
+        }
+        header .imgg span sup {
+            font-size: 19px;
+            padding-right: 4px;
+            padding-left: 4px;
+        }
+        .menu_icon{
+    top: 54px;
+    }
+     .menu_icon .menu{
+    left: 232px;
+    top: -19px;
+    }
+    }
+    
+
+    @media (max-width: 550px){
+        .kontr{
+            display: block;
+        }
+    }
+
+@media only screen and (max-width: 992px) { 
+
+    header .header {
+      height: 100px;
+    }
+
+    header .imgg .icon {
+      padding-top: 8px;
+    }
+
+    .menu {
+      top: -40px;
+    }
+
+    .footer {
+          height: auto;
+        padding-bottom: 48px;
+    }
+
+    .footer span,
+    .footer a {
+
+      text-align: center;
+      display: block;
+      padding: 10px;
+    }
+
+    .soc_set {
+      text-align: center;
+    }
+
+    .infa {
+        font-size: 14px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: calc(100% - 30px);
+    }
+
+    .numbers, .content h1, .infa {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+}
+
+@media (max-width: 480px){
+    
+    header .header{
+    /* height: 96px;
+    width: 230px; */
+    height: 86px;
+    width: auto;
+    }
+
+    .menu_icon .menu {
+      left: auto;
+      top: -32px;
+    }
+
+}
+
+@media (max-width: 360px){
+
+    header .header {
+      height: 72px;
+      width: auto;
+    }
+
+    .menu_icon .menu {
+      left: auto;
+      top: -38px;
+    }
+
+}
+
+
+
+
+
